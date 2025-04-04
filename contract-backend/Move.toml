@@ -1,0 +1,9 @@
+[package]
+name = "Hero_coin"
+version = "0.1.0"
+
+[addresses]
+hero_coin = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
